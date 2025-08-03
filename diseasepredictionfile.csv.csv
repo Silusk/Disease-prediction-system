@@ -1,0 +1,501 @@
+Patient ID,Age,Gender,Symptoms,Duration of Symptoms (Days),Family History,Smoking History,Alcohol Consumption,Blood Pressure Level,Blood Sugar Level,Cholesterol Level,Body Temperature (°C),Heart Rate (BPM),Disease Name
+P1,33,Male,Chest Pain,16,Yes,Yes,No,Low,High,Normal,37.8,81,Glaucoma
+P2,86,Female,Skin Rash,23,Yes,Yes,Yes,High,High,Normal,39.3,83,Thyroid Disorders
+P3,57,Male,Chest Pain,28,No,No,No,Low,Low,High,36.6,99,Prostate Cancer
+P4,35,Other,Shortness of Breath,28,Yes,No,Yes,Normal,High,High,35.7,52,Dystonia
+P5,21,Male,"Dizziness, Weakness",5,No,No,Yes,Normal,Low,Normal,35.8,74,Dengue Fever
+P6,61,Other,"Headache, Fatigue",28,No,Yes,No,High,Normal,Low,36.5,91,Gout
+P7,34,Female,"Headache, Fatigue",19,Yes,No,No,Normal,Normal,High,35.9,116,Epilepsy
+P8,67,Female,Shortness of Breath,20,Yes,Yes,Yes,Low,High,Normal,39.6,59,Anemia
+P9,27,Other,"Headache, Fatigue",26,Yes,Yes,No,High,High,Low,38.9,91,Eczema
+P10,19,Female,Joint Pain,18,Yes,No,Yes,Low,Low,High,36.8,53,Heart Disease
+P11,98,Other,Shortness of Breath,12,No,Yes,No,High,Normal,Normal,37.3,58,Celiac Disease
+P12,28,Female,Joint Pain,17,Yes,Yes,No,High,High,Low,38.9,93,Parkinson’s
+P13,97,Female,"Nausea, Vomiting",26,Yes,Yes,No,Normal,Normal,Normal,38.7,61,Anemia
+P14,41,Female,Chest Pain,5,No,No,No,High,Normal,Low,38.3,97,Asthma
+P15,55,Male,Joint Pain,1,Yes,No,Yes,Normal,Low,Low,39.9,85,Arthritis
+P16,34,Male,Joint Pain,12,No,No,Yes,Low,High,Low,39.9,110,Meningitis
+P17,87,Other,"Headache, Fatigue",9,No,No,Yes,Normal,High,Normal,35.9,67,Arthritis
+P18,64,Female,Chest Pain,13,Yes,No,Yes,Low,Low,High,38.4,56,Typhoid Fever
+P19,1,Male,Joint Pain,25,No,Yes,Yes,Normal,Low,High,38.8,105,Diabetes
+P20,5,Male,Skin Rash,4,No,Yes,No,Low,Normal,High,35.8,73,Alzheimer’s
+P21,29,Female,"Nausea, Vomiting",27,Yes,Yes,No,Low,Low,Low,35.9,110,Cataracts
+P22,31,Other,"Nausea, Vomiting",16,No,Yes,Yes,Normal,High,Normal,38.7,65,Hemophilia
+P23,15,Female,Skin Rash,13,No,Yes,No,Normal,Low,High,37.3,106,Heart Disease
+P24,38,Female,"Dizziness, Weakness",13,Yes,No,Yes,Low,High,Normal,38.7,66,Glaucoma
+P25,36,Female,"Fever, Cough",15,No,No,No,Low,Normal,Low,40,108,COVID-19
+P26,26,Male,"Fever, Cough",15,No,Yes,Yes,High,High,High,38.6,61,Anemia
+P27,23,Male,"Dizziness, Weakness",18,No,Yes,Yes,High,Normal,Low,39,52,Hepatitis B
+P28,45,Other,"Fever, Cough",3,No,Yes,No,Normal,High,High,39.2,118,Epilepsy
+P29,22,Male,Shortness of Breath,8,No,No,No,Normal,Low,Low,39.9,79,Migraine
+P30,19,Female,Shortness of Breath,18,Yes,No,No,High,Low,Normal,36.7,101,Anemia
+P31,81,Female,"Headache, Fatigue",29,Yes,No,No,Normal,Normal,High,38.3,94,Cataracts
+P32,71,Female,Shortness of Breath,10,No,Yes,Yes,Normal,Normal,Normal,38.8,84,Pneumonia
+P33,50,Other,Chest Pain,14,Yes,Yes,No,Normal,Low,High,37.8,77,Glaucoma
+P34,30,Male,"Fever, Cough",5,Yes,Yes,Yes,Low,Normal,Low,39.5,77,Multiple Sclerosis
+P35,39,Male,"Headache, Fatigue",23,Yes,Yes,Yes,Low,High,Normal,39.9,101,COVID-19
+P36,67,Female,"Nausea, Vomiting",19,No,No,Yes,High,High,Low,37.7,69,Hemophilia
+P37,25,Female,"Nausea, Vomiting",19,No,No,No,Low,High,High,38.5,72,Glaucoma
+P38,71,Male,"Dizziness, Weakness",19,Yes,Yes,No,High,Low,Low,38.5,94,Dengue Fever
+P39,88,Other,Joint Pain,23,Yes,Yes,No,Low,Normal,Low,36.8,120,Pancreatitis
+P40,35,Female,"Dizziness, Weakness",5,Yes,No,Yes,Normal,High,Low,36.9,103,Fibromyalgia
+P41,71,Female,Skin Rash,7,Yes,Yes,No,High,Normal,Low,36.1,101,Stroke
+P42,16,Female,Joint Pain,19,No,Yes,No,High,High,High,36.4,80,Anemia
+P43,70,Female,"Headache, Fatigue",14,Yes,No,No,High,High,Low,39.1,66,Schizophrenia
+P44,9,Other,Skin Rash,19,Yes,Yes,Yes,High,Low,Low,36.6,73,Schizophrenia
+P45,30,Female,Skin Rash,10,Yes,No,No,Normal,Low,High,39.8,54,Cataracts
+P46,61,Male,"Dizziness, Weakness",29,Yes,No,Yes,Normal,Low,Low,36,72,Alzheimer’s
+P47,29,Other,Joint Pain,24,Yes,No,No,Normal,Low,Normal,38.4,91,Osteoporosis
+P48,69,Other,"Dizziness, Weakness",20,Yes,No,No,Low,High,Normal,36.9,55,Bronchitis
+P49,61,Male,"Fever, Cough",23,Yes,Yes,Yes,Low,High,Low,39.2,72,Eczema
+P50,52,Other,"Headache, Fatigue",10,Yes,Yes,No,Normal,Low,Low,37.8,116,Anemia
+P51,38,Male,Shortness of Breath,21,No,No,Yes,High,High,Low,38.6,106,Cataracts
+P52,62,Other,Joint Pain,13,No,No,No,Low,Low,High,37.7,64,Psoriasis
+P53,63,Male,Skin Rash,8,No,No,No,Normal,High,High,38.7,62,Dengue Fever
+P54,69,Female,Joint Pain,25,Yes,No,Yes,Normal,Normal,Normal,39.4,56,Cataracts
+P55,46,Female,Skin Rash,27,Yes,No,Yes,High,Normal,Normal,38.6,101,Hypertension
+P56,4,Other,Joint Pain,29,No,Yes,No,High,Low,Normal,36.8,115,Migraine
+P57,97,Male,Joint Pain,21,No,Yes,No,Low,High,Low,37.6,83,Liver Cirrhosis
+P58,39,Female,"Headache, Fatigue",2,Yes,Yes,No,High,Low,High,36.7,55,Dengue Fever
+P59,54,Other,"Dizziness, Weakness",20,No,No,Yes,High,Low,Low,39.4,102,Obesity
+P60,58,Female,Shortness of Breath,14,Yes,No,Yes,High,Low,Low,38.5,80,Crohn’s Disease
+P61,16,Male,"Dizziness, Weakness",19,Yes,No,Yes,Normal,High,Normal,35.9,84,Multiple Sclerosis
+P62,54,Other,"Nausea, Vomiting",23,Yes,Yes,No,Low,Low,Normal,38.6,80,Bronchitis
+P63,95,Female,Shortness of Breath,21,No,Yes,No,Low,High,Low,37.8,81,Fibromyalgia
+P64,99,Male,Skin Rash,16,No,No,No,Low,Normal,High,37.5,104,COVID-19
+P65,50,Male,"Headache, Fatigue",7,Yes,Yes,No,High,Normal,Low,38.4,87,Dengue Fever
+P66,2,Other,"Fever, Cough",7,No,No,Yes,Low,High,High,40.2,94,Autism
+P67,80,Female,Shortness of Breath,27,Yes,Yes,Yes,Normal,Low,Low,37.4,98,Glaucoma
+P68,10,Male,Chest Pain,5,Yes,Yes,Yes,Low,Normal,High,38.5,65,Arthritis
+P69,39,Male,"Dizziness, Weakness",11,Yes,No,No,Normal,Low,Normal,37.1,103,Crohn’s Disease
+P70,75,Female,"Dizziness, Weakness",26,No,Yes,No,Normal,High,Low,39.9,65,Diabetes
+P71,39,Male,"Headache, Fatigue",30,No,Yes,Yes,High,High,Low,37.7,50,Anemia
+P72,37,Male,"Dizziness, Weakness",4,Yes,Yes,Yes,Low,Low,High,36.7,84,Hemophilia
+P73,22,Other,"Dizziness, Weakness",23,No,No,No,Low,Low,Normal,37.7,75,Leukemia
+P74,45,Male,Joint Pain,13,No,No,Yes,High,High,Low,37.5,120,Tuberculosis
+P75,45,Female,Skin Rash,30,No,No,Yes,High,High,Normal,38.4,105,Tuberculosis
+P76,9,Other,"Nausea, Vomiting",14,No,No,No,High,Normal,High,38.5,62,Hypertension
+P77,69,Male,Joint Pain,30,No,Yes,Yes,Normal,High,Normal,38.1,108,Malaria
+P78,88,Female,"Dizziness, Weakness",21,No,Yes,Yes,High,Low,Low,38.1,104,HIV/AIDS
+P79,73,Male,Chest Pain,14,No,Yes,Yes,High,High,Low,40.1,57,Gastritis
+P80,45,Other,Chest Pain,28,No,Yes,Yes,Low,Low,High,36.3,55,Thyroid Disorders
+P81,47,Male,Shortness of Breath,6,Yes,Yes,No,Low,Normal,Normal,37.9,50,Tuberculosis
+P82,79,Other,"Headache, Fatigue",23,No,No,No,Low,High,Normal,38.4,90,Pancreatitis
+P83,94,Female,"Nausea, Vomiting",21,No,No,Yes,Low,Normal,Normal,36.9,60,HIV/AIDS
+P84,42,Other,"Fever, Cough",18,Yes,Yes,Yes,High,Low,High,38.4,81,Ulcers
+P85,95,Female,"Headache, Fatigue",24,No,Yes,Yes,High,Normal,High,40.4,73,Parkinson’s
+P86,81,Male,Skin Rash,10,Yes,No,No,Normal,High,High,40.4,101,Hemophilia
+P87,71,Male,Skin Rash,24,No,Yes,No,Low,High,Low,39.3,78,Kidney Disease
+P88,26,Male,"Headache, Fatigue",16,Yes,Yes,Yes,Low,Normal,Normal,38.4,100,Depression
+P89,56,Other,Joint Pain,16,No,No,Yes,Low,High,Normal,36.1,68,Osteoporosis
+P90,68,Other,"Dizziness, Weakness",8,No,Yes,No,Low,High,Low,37.1,112,Multiple Sclerosis
+P91,33,Male,"Fever, Cough",30,No,No,No,High,Normal,Low,39.2,106,Cataracts
+P92,8,Other,"Fever, Cough",20,Yes,No,Yes,Normal,High,Low,40.2,61,Depression
+P93,17,Female,Skin Rash,7,Yes,No,No,Normal,Low,Low,37.7,98,Stroke
+P94,61,Other,Joint Pain,18,No,No,Yes,Low,High,High,37.9,84,COVID-19
+P95,35,Female,Shortness of Breath,21,Yes,No,No,High,High,High,37.7,58,Lymphoma
+P96,37,Female,Skin Rash,25,No,Yes,No,Low,Normal,Normal,37.5,65,Schizophrenia
+P97,57,Female,Joint Pain,25,Yes,No,Yes,Low,Normal,Normal,36.3,112,Parkinson’s
+P98,38,Other,"Fever, Cough",5,Yes,Yes,No,Low,High,Normal,38.4,95,Psoriasis
+P99,98,Other,"Fever, Cough",12,Yes,Yes,No,Low,Normal,Normal,40,117,Arthritis
+P100,52,Female,Shortness of Breath,14,No,No,No,High,Normal,Low,38.6,62,Tuberculosis
+P101,36,Male,Chest Pain,23,No,No,Yes,High,Normal,High,35.7,62,Stroke
+P102,4,Female,"Fever, Cough",19,No,No,No,High,Low,Low,37.7,100,Celiac Disease
+P103,38,Female,Chest Pain,4,No,No,Yes,Low,High,Normal,37.5,117,Epilepsy
+P104,98,Other,Chest Pain,29,Yes,Yes,No,Normal,High,Normal,37,55,Migraine
+P105,18,Female,"Nausea, Vomiting",11,Yes,No,No,Normal,Normal,Low,37.6,61,Fibromyalgia
+P106,62,Other,"Fever, Cough",30,Yes,No,No,High,High,Low,40.1,72,Gastritis
+P107,89,Male,"Fever, Cough",11,Yes,Yes,Yes,Normal,Normal,High,40.5,99,Crohn’s Disease
+P108,9,Male,"Fever, Cough",4,Yes,Yes,No,Low,High,High,37.8,50,Pneumonia
+P109,25,Male,Joint Pain,8,No,No,No,Normal,Low,Low,40.1,85,Breast Cancer
+P110,26,Other,"Headache, Fatigue",20,No,Yes,Yes,Low,High,High,35.9,99,Fibromyalgia
+P111,67,Male,"Fever, Cough",5,No,No,No,Normal,Low,Normal,38.9,74,Dystonia
+P112,55,Male,"Headache, Fatigue",2,Yes,Yes,No,Low,Low,Low,35.8,76,Breast Cancer
+P113,26,Female,Skin Rash,30,No,Yes,Yes,Low,Normal,Low,37.4,110,Arthritis
+P114,61,Other,Shortness of Breath,5,No,No,Yes,Low,Low,Low,37.9,84,Parkinson’s
+P115,67,Male,Chest Pain,15,No,Yes,No,High,High,Normal,40.1,76,Hepatitis B
+P116,4,Other,Chest Pain,5,No,No,No,High,Low,Normal,38,96,Breast Cancer
+P117,64,Male,"Fever, Cough",3,No,No,Yes,Normal,Low,Low,36.6,75,Arthritis
+P118,97,Other,"Headache, Fatigue",7,Yes,Yes,No,Normal,High,Normal,38,60,Dengue Fever
+P119,19,Female,"Headache, Fatigue",10,Yes,No,Yes,Normal,Normal,High,38.3,83,Crohn’s Disease
+P120,39,Other,Shortness of Breath,15,Yes,No,No,Low,Low,Low,36.4,97,Psoriasis
+P121,49,Female,"Fever, Cough",26,No,No,No,High,Normal,Low,36.9,91,Lung Cancer
+P122,28,Male,Joint Pain,1,No,No,Yes,Normal,High,Normal,36.9,105,Breast Cancer
+P123,19,Female,"Fever, Cough",9,Yes,No,Yes,Normal,High,High,39,92,Hepatitis B
+P124,35,Female,Shortness of Breath,11,Yes,No,Yes,Normal,High,High,36.5,116,Alzheimer’s
+P125,9,Female,"Fever, Cough",25,Yes,No,No,High,Normal,High,36.1,119,Tuberculosis
+P126,30,Female,Chest Pain,8,No,Yes,No,High,Normal,Low,37.8,59,Pneumonia
+P127,29,Female,"Nausea, Vomiting",30,Yes,Yes,Yes,High,Low,Normal,37.6,116,Cataracts
+P128,20,Male,"Headache, Fatigue",21,Yes,Yes,No,Normal,Low,Normal,39.4,80,Colon Cancer
+P129,27,Other,"Nausea, Vomiting",26,No,No,Yes,Normal,High,Low,38.5,119,Hepatitis B
+P130,99,Male,"Nausea, Vomiting",3,No,No,No,High,Low,Low,36.1,91,Crohn’s Disease
+P131,22,Other,Chest Pain,16,No,Yes,Yes,Normal,Normal,Normal,36.5,55,Autism
+P132,92,Other,Shortness of Breath,28,No,No,No,Normal,High,High,38.4,57,Fibromyalgia
+P133,77,Other,Joint Pain,8,No,Yes,Yes,Normal,Normal,Low,36.7,90,Osteoporosis
+P134,24,Male,"Headache, Fatigue",13,No,Yes,No,Low,Normal,High,35.6,98,Gastritis
+P135,25,Female,"Headache, Fatigue",30,No,No,Yes,Low,High,Normal,36.4,79,Fibromyalgia
+P136,65,Male,"Fever, Cough",11,No,No,Yes,High,High,Low,35.5,74,Osteoporosis
+P137,66,Female,Joint Pain,7,Yes,Yes,Yes,High,Normal,Low,37.2,93,Dengue Fever
+P138,70,Female,"Nausea, Vomiting",23,No,No,Yes,High,Normal,Low,39.9,67,Tuberculosis
+P139,92,Other,"Fever, Cough",5,Yes,Yes,Yes,Normal,Low,Low,36.1,66,Ulcers
+P140,6,Other,Skin Rash,14,Yes,Yes,Yes,Normal,Low,Normal,40.4,85,Osteoporosis
+P141,59,Other,"Headache, Fatigue",14,Yes,Yes,No,Normal,Normal,Low,36.8,118,Schizophrenia
+P142,95,Other,Joint Pain,17,No,No,Yes,Low,High,Low,40.2,58,Crohn’s Disease
+P143,85,Male,Joint Pain,13,No,No,No,High,High,High,36.8,55,Depression
+P144,2,Female,"Fever, Cough",14,No,No,Yes,High,High,High,39.7,113,Liver Cirrhosis
+P145,91,Female,"Nausea, Vomiting",28,No,Yes,No,High,Low,Low,37.9,93,Stroke
+P146,12,Female,"Fever, Cough",15,Yes,No,Yes,Normal,High,High,39.3,64,Cataracts
+P147,63,Female,Skin Rash,24,No,Yes,No,High,Low,High,40.5,60,Liver Cirrhosis
+P148,29,Male,Joint Pain,7,Yes,No,Yes,High,Low,Normal,35.6,93,Anemia
+P149,81,Male,Skin Rash,4,No,Yes,Yes,Low,High,Low,38.7,67,Glaucoma
+P150,24,Other,"Dizziness, Weakness",11,No,Yes,No,Low,High,High,38,106,Migraine
+P151,9,Female,Shortness of Breath,20,No,No,Yes,Low,Low,Low,36.5,104,Liver Cirrhosis
+P152,72,Female,Chest Pain,1,Yes,Yes,No,Normal,Normal,High,40,61,Lung Cancer
+P153,1,Female,"Nausea, Vomiting",24,Yes,No,Yes,Normal,High,Low,35.6,64,Breast Cancer
+P154,79,Other,Skin Rash,5,No,No,Yes,High,Normal,Normal,36.8,77,Alzheimer’s
+P155,92,Other,Chest Pain,17,Yes,No,Yes,Low,Low,Normal,38,61,Hemophilia
+P156,46,Male,Chest Pain,29,Yes,Yes,Yes,Normal,High,Low,36,51,Depression
+P157,27,Female,"Dizziness, Weakness",6,Yes,Yes,Yes,High,High,Normal,39.9,97,Glaucoma
+P158,75,Other,"Headache, Fatigue",7,Yes,Yes,Yes,Normal,High,Low,38.8,70,Obesity
+P159,24,Male,Shortness of Breath,11,No,No,Yes,Normal,High,Normal,39.5,65,Diabetes
+P160,61,Male,Joint Pain,3,No,Yes,No,Normal,Normal,Low,36.6,91,Crohn’s Disease
+P161,11,Female,"Headache, Fatigue",22,Yes,No,Yes,Low,High,Normal,39.2,74,Asthma
+P162,68,Male,"Dizziness, Weakness",5,Yes,Yes,Yes,High,Normal,Normal,36,116,Autism
+P163,100,Female,"Fever, Cough",19,Yes,No,Yes,Low,High,Low,37.8,96,Parkinson’s
+P164,46,Male,Joint Pain,22,Yes,Yes,No,Normal,Low,Low,36.5,55,Glaucoma
+P165,77,Other,Shortness of Breath,28,Yes,No,No,High,High,High,38.9,115,Eczema
+P166,2,Male,Joint Pain,5,No,Yes,No,Normal,Low,Normal,39.6,88,Hypertension
+P167,90,Male,Skin Rash,11,Yes,Yes,Yes,Low,Normal,High,38.4,81,Alzheimer’s
+P168,56,Male,"Headache, Fatigue",30,Yes,Yes,No,High,High,High,40.4,60,Eczema
+P169,85,Female,"Fever, Cough",3,Yes,No,Yes,High,Low,Normal,40.5,77,Parkinson’s
+P170,16,Male,"Nausea, Vomiting",8,Yes,Yes,Yes,High,High,High,39.7,76,Stroke
+P171,67,Other,Skin Rash,18,No,No,Yes,High,Low,High,38.8,114,Heart Disease
+P172,94,Female,"Dizziness, Weakness",17,No,No,No,High,High,Normal,36.3,80,Stroke
+P173,53,Female,Shortness of Breath,20,No,No,Yes,High,Low,Normal,39.2,69,Dengue Fever
+P174,40,Male,Joint Pain,8,No,Yes,No,Low,Low,Normal,38.2,120,Diabetes
+P175,49,Male,Shortness of Breath,26,Yes,Yes,No,Low,High,High,39,84,Pneumonia
+P176,58,Female,"Headache, Fatigue",8,Yes,Yes,Yes,Low,Normal,Normal,37.7,60,Malaria
+P177,89,Other,Chest Pain,30,Yes,No,Yes,Low,Normal,Low,36.5,106,Hemophilia
+P178,15,Other,Shortness of Breath,2,Yes,No,Yes,Normal,Low,Low,36.4,110,Fibromyalgia
+P179,18,Male,"Headache, Fatigue",21,Yes,No,No,High,Low,Low,39.8,83,Hemophilia
+P180,7,Female,Skin Rash,20,No,Yes,Yes,High,Low,High,39.8,50,Fibromyalgia
+P181,82,Male,Shortness of Breath,15,No,Yes,No,Normal,Low,High,37.7,114,Obesity
+P182,46,Male,"Headache, Fatigue",22,Yes,No,No,Normal,High,Normal,39.2,74,Asthma
+P183,5,Male,"Dizziness, Weakness",10,No,Yes,No,High,High,High,39.7,59,Epilepsy
+P184,78,Female,Joint Pain,22,Yes,No,Yes,Low,High,High,36.3,74,Heart Disease
+P185,28,Male,Shortness of Breath,13,No,No,No,High,Low,High,38.8,51,Asthma
+P186,43,Male,"Nausea, Vomiting",11,No,Yes,Yes,High,High,Low,36.8,70,Psoriasis
+P187,62,Female,"Dizziness, Weakness",8,Yes,Yes,No,Normal,High,Normal,36.5,82,Migraine
+P188,87,Male,Chest Pain,30,Yes,Yes,Yes,High,High,High,39.7,103,Gout
+P189,75,Male,"Fever, Cough",29,Yes,No,Yes,Normal,Low,Normal,35.7,51,Meningitis
+P190,1,Other,Shortness of Breath,20,Yes,Yes,No,Low,High,High,40.4,117,Anemia
+P191,58,Male,"Dizziness, Weakness",17,No,Yes,Yes,Low,High,High,39.7,101,Asthma
+P192,91,Other,Skin Rash,13,Yes,No,Yes,Normal,High,Low,37.8,72,Ulcers
+P193,18,Female,"Nausea, Vomiting",29,Yes,No,Yes,Low,Normal,High,36.5,78,Gout
+P194,6,Other,Skin Rash,25,No,Yes,Yes,High,Normal,Normal,38.5,58,Kidney Disease
+P195,43,Male,"Nausea, Vomiting",28,No,Yes,Yes,High,High,Normal,36.8,113,Bronchitis
+P196,49,Other,Skin Rash,5,Yes,No,Yes,Normal,Low,Normal,38.1,94,Celiac Disease
+P197,48,Other,Joint Pain,22,Yes,No,No,Low,Low,Normal,37.7,75,Crohn’s Disease
+P198,62,Male,"Headache, Fatigue",16,No,No,No,Normal,Normal,Low,39.6,100,Gout
+P199,9,Female,Joint Pain,3,Yes,No,Yes,High,High,Normal,39.5,77,Stroke
+P200,40,Male,"Nausea, Vomiting",17,No,No,Yes,Low,Low,Low,37.3,74,Breast Cancer
+P201,55,Female,"Dizziness, Weakness",23,No,No,No,High,High,Normal,37,91,Asthma
+P202,69,Male,"Headache, Fatigue",11,Yes,No,No,High,High,Low,39.2,75,Epilepsy
+P203,45,Male,"Fever, Cough",15,Yes,No,Yes,High,Low,High,35.5,90,Fibromyalgia
+P204,42,Male,Joint Pain,27,Yes,Yes,Yes,Normal,Normal,Normal,40.3,74,Pneumonia
+P205,77,Female,Shortness of Breath,20,No,No,Yes,Normal,High,Normal,36.4,83,Depression
+P206,75,Other,"Fever, Cough",23,Yes,Yes,Yes,Normal,Low,High,38.5,101,Lung Cancer
+P207,96,Female,Skin Rash,10,Yes,No,No,Low,Low,Normal,38.3,51,Hemophilia
+P208,81,Female,Shortness of Breath,6,No,No,No,High,High,High,39.7,117,Depression
+P209,32,Female,Chest Pain,18,Yes,No,Yes,Normal,Normal,High,36.8,78,Gout
+P210,36,Male,Shortness of Breath,5,Yes,Yes,No,High,Low,Normal,37.6,57,Stroke
+P211,14,Female,Chest Pain,15,Yes,No,No,Normal,High,Normal,37.2,113,Breast Cancer
+P212,43,Other,"Dizziness, Weakness",3,No,Yes,No,High,High,High,38.8,109,Kidney Disease
+P213,21,Female,Joint Pain,26,Yes,No,Yes,High,Normal,High,39,101,Parkinson’s
+P214,71,Male,Joint Pain,9,No,Yes,No,Normal,High,High,35.5,109,Psoriasis
+P215,14,Other,"Dizziness, Weakness",24,No,Yes,Yes,High,Low,Low,37.2,55,Glaucoma
+P216,56,Female,"Headache, Fatigue",27,Yes,Yes,No,Normal,High,High,38.4,53,Hypertension
+P217,12,Female,Skin Rash,7,No,Yes,No,High,Normal,Low,37.3,74,Colon Cancer
+P218,37,Female,Joint Pain,21,No,No,Yes,Low,Normal,High,37.4,70,Autism
+P219,1,Female,Chest Pain,13,Yes,Yes,No,Low,Low,Low,39.1,110,Sickle Cell Disease
+P220,25,Other,Skin Rash,30,No,No,No,Low,Low,High,37.8,57,Sickle Cell Disease
+P221,6,Female,Chest Pain,18,No,Yes,Yes,Normal,Low,Low,35.8,107,Hypertension
+P222,34,Other,"Dizziness, Weakness",25,Yes,Yes,No,Low,Normal,Normal,37.3,76,Lung Cancer
+P223,59,Other,"Fever, Cough",1,Yes,Yes,Yes,Low,Normal,Normal,39.7,83,Heart Disease
+P224,81,Other,"Headache, Fatigue",2,Yes,Yes,No,Low,High,Normal,37.9,51,Ulcers
+P225,36,Male,Shortness of Breath,25,No,No,Yes,Low,High,High,37.6,61,Obesity
+P226,15,Male,Skin Rash,5,Yes,Yes,No,High,High,Low,36.5,93,Psoriasis
+P227,5,Male,"Headache, Fatigue",28,Yes,Yes,No,Normal,Low,High,38.8,101,Leukemia
+P228,80,Other,"Fever, Cough",8,No,No,Yes,Low,Low,Normal,36,85,Heart Disease
+P229,67,Other,Shortness of Breath,17,No,No,Yes,Low,Normal,Normal,39.2,114,Autism
+P230,50,Female,Skin Rash,30,No,No,Yes,High,High,Normal,40.2,76,Epilepsy
+P231,60,Male,"Headache, Fatigue",15,No,Yes,No,Normal,High,Low,36.3,91,Typhoid Fever
+P232,49,Female,Chest Pain,16,No,Yes,Yes,High,Normal,High,36.6,53,Pancreatitis
+P233,15,Female,"Fever, Cough",4,No,Yes,Yes,Normal,Normal,Normal,36.6,71,Obesity
+P234,97,Female,"Headache, Fatigue",11,No,No,No,High,Normal,Low,37.9,98,Epilepsy
+P235,24,Other,Joint Pain,2,Yes,No,No,Normal,Low,High,39.9,80,Pneumonia
+P236,21,Male,Joint Pain,15,No,No,Yes,High,Normal,Normal,40.3,79,Celiac Disease
+P237,24,Female,"Dizziness, Weakness",18,No,Yes,No,Normal,Normal,Normal,39.9,113,Epilepsy
+P238,60,Male,"Nausea, Vomiting",25,Yes,Yes,Yes,Normal,High,High,37.7,114,Crohn’s Disease
+P239,97,Other,"Headache, Fatigue",25,Yes,No,Yes,High,High,Normal,36.3,69,Bronchitis
+P240,40,Male,Joint Pain,9,Yes,No,Yes,Low,High,High,37.5,117,Asthma
+P241,14,Male,"Headache, Fatigue",17,No,Yes,No,High,Low,Low,37.7,87,Anemia
+P242,34,Male,Shortness of Breath,29,No,Yes,Yes,High,High,Normal,38.1,97,Epilepsy
+P243,59,Female,"Headache, Fatigue",29,No,No,No,Low,Normal,Low,36.3,117,Stroke
+P244,17,Male,Skin Rash,24,No,Yes,No,High,High,High,35.9,50,Kidney Disease
+P245,8,Female,"Fever, Cough",8,No,No,Yes,Low,Low,Normal,37.4,67,Asthma
+P246,14,Other,Skin Rash,8,Yes,Yes,No,High,Low,High,39.8,115,Dystonia
+P247,11,Female,"Nausea, Vomiting",14,Yes,Yes,No,Normal,Low,Low,38,88,Sickle Cell Disease
+P248,13,Male,"Fever, Cough",6,No,Yes,Yes,Normal,Low,Low,36.5,50,Arthritis
+P249,61,Other,Chest Pain,2,No,No,No,Normal,High,Low,39.4,62,Cataracts
+P250,43,Male,"Headache, Fatigue",25,Yes,Yes,No,High,Low,Low,38.5,105,Diabetes
+P251,74,Female,Skin Rash,15,Yes,Yes,No,Normal,High,Low,39.9,59,Cataracts
+P252,9,Male,"Fever, Cough",5,Yes,No,Yes,Low,Low,Low,39.3,119,Liver Cirrhosis
+P253,91,Female,"Dizziness, Weakness",22,No,Yes,Yes,Normal,High,Low,36.9,53,Psoriasis
+P254,48,Other,Chest Pain,25,No,Yes,No,Low,Low,High,37,77,Parkinson’s
+P255,67,Other,Joint Pain,5,No,No,No,Normal,Low,Normal,38.7,73,Lymphoma
+P256,61,Other,Joint Pain,20,No,No,No,High,Normal,Low,38.4,75,Gastritis
+P257,76,Other,Joint Pain,24,Yes,No,No,High,Low,High,39.1,73,COVID-19
+P258,70,Other,"Nausea, Vomiting",17,Yes,Yes,No,High,High,Normal,36.5,93,Ulcers
+P259,51,Female,Skin Rash,22,No,Yes,No,Low,High,Low,35.7,108,Osteoporosis
+P260,80,Female,Chest Pain,7,Yes,Yes,No,Low,High,Low,36.6,76,Lymphoma
+P261,7,Female,"Nausea, Vomiting",21,Yes,Yes,No,High,Low,High,38.6,92,Hepatitis B
+P262,71,Female,"Headache, Fatigue",14,No,Yes,Yes,Normal,Low,Low,40,57,Arthritis
+P263,80,Female,"Headache, Fatigue",7,Yes,Yes,No,High,Low,Low,38.7,88,Eczema
+P264,44,Male,Skin Rash,19,No,Yes,No,Normal,Low,Normal,37.9,111,Sickle Cell Disease
+P265,97,Other,Shortness of Breath,13,Yes,No,Yes,Low,Low,Normal,38.3,100,Kidney Disease
+P266,64,Male,Shortness of Breath,7,Yes,Yes,No,Low,Low,Normal,38.9,113,Gout
+P267,36,Other,"Nausea, Vomiting",26,Yes,No,Yes,Normal,Low,High,37.4,96,Typhoid Fever
+P268,68,Male,Joint Pain,13,Yes,No,Yes,Normal,Low,Low,39.9,74,Cataracts
+P269,38,Female,"Headache, Fatigue",18,No,Yes,Yes,High,Normal,Low,36.2,53,Psoriasis
+P270,96,Other,"Headache, Fatigue",16,No,No,Yes,High,Low,High,37.7,80,Bronchitis
+P271,72,Other,"Nausea, Vomiting",23,Yes,Yes,Yes,High,Low,Low,39,62,Schizophrenia
+P272,10,Other,Shortness of Breath,27,No,No,Yes,Normal,Normal,High,39.5,117,Leukemia
+P273,2,Other,"Fever, Cough",12,Yes,No,No,High,Low,Low,40.2,63,Pancreatitis
+P274,32,Female,"Nausea, Vomiting",24,No,Yes,Yes,High,Normal,Low,40,85,Bronchitis
+P275,71,Male,"Nausea, Vomiting",18,Yes,Yes,Yes,Normal,Low,Normal,40.3,101,Pneumonia
+P276,1,Other,"Dizziness, Weakness",8,Yes,Yes,Yes,Low,Normal,Low,37.7,106,Hemophilia
+P277,40,Male,Shortness of Breath,3,No,No,Yes,High,High,Low,35.8,109,Asthma
+P278,79,Other,"Nausea, Vomiting",29,Yes,No,Yes,High,High,High,37.1,113,Multiple Sclerosis
+P279,35,Male,Joint Pain,23,No,No,Yes,Normal,Normal,Normal,37.9,102,HIV/AIDS
+P280,28,Male,"Headache, Fatigue",22,Yes,No,Yes,High,Normal,Normal,35.6,114,Bronchitis
+P281,73,Female,Shortness of Breath,21,No,No,No,Normal,Normal,Low,36.6,50,Hepatitis B
+P282,12,Other,"Headache, Fatigue",3,No,No,No,Low,Normal,Low,36.4,89,Cataracts
+P283,27,Male,Skin Rash,8,No,No,Yes,High,Low,Normal,38.2,101,Eczema
+P284,86,Male,Joint Pain,17,Yes,No,Yes,High,Normal,Normal,36,81,Bronchitis
+P285,10,Male,Skin Rash,20,No,No,Yes,High,Low,High,36.8,116,Tuberculosis
+P286,88,Other,Chest Pain,13,No,No,Yes,Low,Normal,High,38.3,80,Ulcers
+P287,49,Female,Shortness of Breath,13,Yes,Yes,Yes,Low,High,High,36.4,105,Parkinson’s
+P288,6,Male,"Nausea, Vomiting",28,No,No,Yes,Low,Normal,Low,39.5,74,Sickle Cell Disease
+P289,9,Other,Joint Pain,10,No,No,Yes,Normal,High,High,36.8,94,Tuberculosis
+P290,63,Male,Chest Pain,19,Yes,No,No,Normal,Normal,Low,38.9,88,Ulcers
+P291,61,Female,Chest Pain,4,No,No,No,Normal,Normal,Low,35.9,106,Obesity
+P292,44,Male,"Nausea, Vomiting",1,Yes,No,Yes,Normal,Normal,Normal,36.3,78,Eczema
+P293,64,Male,"Fever, Cough",28,Yes,No,Yes,High,Low,Normal,35.8,81,Hepatitis B
+P294,18,Male,"Headache, Fatigue",6,No,Yes,Yes,Low,High,Normal,37.1,58,Schizophrenia
+P295,95,Female,"Fever, Cough",11,No,No,Yes,High,Normal,High,38.5,100,Epilepsy
+P296,18,Other,"Headache, Fatigue",6,Yes,Yes,No,Low,Normal,Low,35.7,108,Pneumonia
+P297,14,Male,Joint Pain,25,No,Yes,Yes,Normal,Normal,High,40.5,80,Hemophilia
+P298,44,Other,"Nausea, Vomiting",9,Yes,No,No,Low,Normal,High,37.2,97,Meningitis
+P299,63,Female,Joint Pain,25,No,Yes,No,High,High,Low,36.5,105,Dystonia
+P300,99,Other,"Dizziness, Weakness",20,Yes,Yes,No,High,Normal,Low,40.3,110,Kidney Disease
+P301,25,Other,Shortness of Breath,1,No,Yes,Yes,Normal,Low,Normal,40.2,92,Breast Cancer
+P302,47,Male,"Nausea, Vomiting",3,Yes,No,Yes,Low,Normal,Low,38.5,64,Tuberculosis
+P303,70,Male,"Fever, Cough",2,No,No,No,High,Low,High,36.6,62,Alzheimer’s
+P304,14,Other,Chest Pain,16,No,No,Yes,Normal,Low,Normal,39.7,77,Dystonia
+P305,7,Male,Joint Pain,20,No,No,No,Normal,Low,Low,40.1,97,Crohn’s Disease
+P306,62,Male,Skin Rash,4,No,No,No,Low,High,Normal,38,50,Colon Cancer
+P307,78,Female,"Dizziness, Weakness",28,Yes,Yes,No,Low,Normal,Low,36.8,66,Stroke
+P308,16,Female,Joint Pain,30,Yes,No,No,High,Normal,Low,39.5,116,Eczema
+P309,49,Female,"Dizziness, Weakness",28,Yes,No,Yes,Normal,High,High,39.5,58,HIV/AIDS
+P310,89,Other,"Headache, Fatigue",3,Yes,Yes,No,High,Low,Low,37.2,82,Lung Cancer
+P311,6,Male,"Nausea, Vomiting",8,Yes,Yes,No,High,Low,Normal,37.8,95,Hemophilia
+P312,14,Other,Skin Rash,21,Yes,No,No,Normal,High,Normal,37.2,98,Crohn’s Disease
+P313,91,Other,Skin Rash,7,No,Yes,No,Low,Low,High,38,96,Gout
+P314,89,Other,"Fever, Cough",29,Yes,Yes,No,High,Normal,Normal,35.7,66,Kidney Disease
+P315,24,Female,"Dizziness, Weakness",21,No,Yes,Yes,Low,High,Normal,36,117,Eczema
+P316,95,Female,Skin Rash,28,No,Yes,No,High,High,High,38.8,77,Breast Cancer
+P317,73,Other,"Headache, Fatigue",2,No,No,Yes,Low,High,Low,35.8,72,Parkinson’s
+P318,73,Male,Chest Pain,17,Yes,Yes,No,High,Normal,Low,39.5,85,Hemophilia
+P319,83,Male,Joint Pain,14,Yes,No,No,Low,High,Normal,38.6,55,Stroke
+P320,52,Male,Shortness of Breath,28,No,No,No,Low,Low,Low,36.4,71,Pneumonia
+P321,38,Other,"Headache, Fatigue",28,No,No,No,Low,Low,High,37.3,120,Parkinson’s
+P322,73,Other,Skin Rash,27,Yes,Yes,Yes,Normal,Normal,Low,37.8,114,Autism
+P323,44,Male,Skin Rash,9,No,Yes,No,High,Normal,Low,36.4,116,Cataracts
+P324,32,Male,"Headache, Fatigue",23,No,Yes,No,High,High,Normal,35.8,50,Heart Disease
+P325,45,Other,Joint Pain,15,Yes,Yes,Yes,Low,Normal,High,39.2,114,HIV/AIDS
+P326,40,Other,Shortness of Breath,2,Yes,No,No,High,High,Low,39.1,80,Lymphoma
+P327,41,Female,"Fever, Cough",2,Yes,Yes,Yes,High,High,High,36.4,99,Glaucoma
+P328,72,Male,"Headache, Fatigue",1,Yes,No,Yes,High,Low,Normal,38.5,68,Migraine
+P329,81,Female,"Fever, Cough",21,No,No,Yes,Low,Low,Normal,38.5,68,Multiple Sclerosis
+P330,74,Female,Skin Rash,4,No,No,Yes,High,Normal,Low,39.1,60,Pancreatitis
+P331,26,Other,"Dizziness, Weakness",29,Yes,Yes,No,Normal,High,Low,38.9,102,COVID-19
+P332,54,Male,Skin Rash,27,No,No,No,Low,High,Low,40.4,103,Fibromyalgia
+P333,2,Male,"Headache, Fatigue",6,No,Yes,No,High,Low,Normal,36.6,80,Cataracts
+P334,73,Male,Chest Pain,21,Yes,No,Yes,Normal,High,Normal,39,105,Crohn’s Disease
+P335,99,Male,Joint Pain,8,No,No,Yes,Normal,Low,High,37,84,Fibromyalgia
+P336,27,Male,Shortness of Breath,14,No,Yes,Yes,High,Normal,Normal,38.1,119,Epilepsy
+P337,64,Male,"Nausea, Vomiting",12,Yes,No,No,Normal,Normal,Low,36.8,88,Gastritis
+P338,75,Male,"Fever, Cough",1,Yes,No,Yes,High,Low,Low,35.9,91,Epilepsy
+P339,34,Male,"Dizziness, Weakness",18,No,No,No,Low,Low,Low,38.4,96,Fibromyalgia
+P340,13,Other,"Nausea, Vomiting",7,No,Yes,Yes,Normal,Normal,High,35.7,61,Osteoporosis
+P341,95,Male,Chest Pain,21,Yes,Yes,Yes,Normal,Low,Normal,38.4,87,Autism
+P342,37,Female,"Headache, Fatigue",28,Yes,No,No,High,High,Normal,37.4,89,Tuberculosis
+P343,9,Male,Shortness of Breath,17,No,No,No,Low,Normal,Normal,38.3,61,Dystonia
+P344,23,Other,Joint Pain,7,Yes,No,Yes,High,Normal,Normal,37.7,118,Cataracts
+P345,78,Male,"Dizziness, Weakness",3,No,No,No,Low,High,High,37.8,66,Bronchitis
+P346,98,Male,"Dizziness, Weakness",11,Yes,No,No,High,High,High,40.3,119,Dengue Fever
+P347,100,Other,Joint Pain,20,No,Yes,Yes,Low,Normal,Low,39.3,81,COVID-19
+P348,62,Other,"Fever, Cough",25,Yes,No,Yes,Low,Low,Low,36.6,62,Parkinson’s
+P349,40,Male,Skin Rash,10,Yes,Yes,Yes,Normal,Normal,Normal,36.9,103,Schizophrenia
+P350,94,Other,Joint Pain,30,No,No,Yes,High,Normal,Low,38.5,70,Depression
+P351,67,Female,"Nausea, Vomiting",27,No,No,No,Normal,Low,High,37.2,112,Gout
+P352,94,Female,Shortness of Breath,15,No,No,No,High,Normal,Normal,35.7,87,Lymphoma
+P353,74,Male,Skin Rash,13,Yes,No,Yes,Normal,Low,Low,40.3,76,Hepatitis B
+P354,6,Male,"Dizziness, Weakness",15,Yes,No,No,High,Normal,Normal,37,79,Diabetes
+P355,61,Male,"Fever, Cough",6,No,No,Yes,Normal,High,High,37.6,115,Cataracts
+P356,39,Male,Skin Rash,14,Yes,Yes,No,Normal,Low,Normal,36.1,91,Anemia
+P357,74,Male,"Fever, Cough",3,No,Yes,No,Low,High,Low,38.6,81,Breast Cancer
+P358,87,Male,"Dizziness, Weakness",3,Yes,No,No,Normal,High,Normal,39,73,Psoriasis
+P359,1,Female,"Nausea, Vomiting",27,Yes,Yes,Yes,Normal,Normal,Normal,36.9,77,Multiple Sclerosis
+P360,62,Male,Skin Rash,25,Yes,No,Yes,Normal,High,Normal,37.1,52,Fibromyalgia
+P361,61,Female,Joint Pain,29,No,No,No,Normal,Normal,Normal,36.5,63,Ulcers
+P362,62,Male,"Dizziness, Weakness",20,No,No,No,Low,Normal,Low,37.7,62,Asthma
+P363,53,Other,Skin Rash,18,Yes,Yes,Yes,Low,High,Low,37.8,81,Dystonia
+P364,90,Female,Chest Pain,14,No,Yes,Yes,High,Normal,Normal,39.7,53,Stroke
+P365,23,Other,Skin Rash,17,Yes,Yes,No,High,Low,Low,37.6,110,Epilepsy
+P366,21,Other,Skin Rash,11,Yes,No,Yes,High,Low,Low,37.8,102,Gout
+P367,77,Other,Chest Pain,1,No,Yes,Yes,Low,Normal,High,40.2,75,Breast Cancer
+P368,34,Other,"Fever, Cough",21,No,Yes,No,Low,High,Low,36.1,88,Hypertension
+P369,42,Female,Joint Pain,6,Yes,Yes,No,Low,Normal,Low,36.3,120,Celiac Disease
+P370,66,Male,"Nausea, Vomiting",26,Yes,No,Yes,Low,High,Low,38.3,72,Depression
+P371,51,Male,"Nausea, Vomiting",1,Yes,Yes,Yes,Low,Low,High,36.5,80,Eczema
+P372,6,Female,Shortness of Breath,13,Yes,No,No,Low,High,High,37.4,62,Parkinson’s
+P373,54,Female,Chest Pain,29,Yes,Yes,No,Normal,Low,Normal,38.7,58,Hemophilia
+P374,51,Other,"Dizziness, Weakness",4,Yes,No,No,Normal,Normal,Low,40.3,104,Malaria
+P375,70,Other,Skin Rash,3,Yes,Yes,Yes,High,Low,Normal,35.6,50,Breast Cancer
+P376,78,Male,"Dizziness, Weakness",1,Yes,Yes,No,High,Normal,Normal,37.7,63,Lymphoma
+P377,3,Female,"Dizziness, Weakness",10,No,No,No,Low,Normal,High,39.6,117,Hemophilia
+P378,31,Female,Skin Rash,22,Yes,No,No,High,Low,Normal,38.2,92,Thyroid Disorders
+P379,25,Other,"Fever, Cough",2,No,Yes,Yes,High,Normal,High,37.7,89,Eczema
+P380,42,Female,Shortness of Breath,5,Yes,No,Yes,Low,High,High,37.6,119,Anemia
+P381,25,Male,"Fever, Cough",4,Yes,Yes,No,Low,Low,High,36.4,100,Malaria
+P382,41,Other,Shortness of Breath,14,No,No,No,High,Low,Normal,36.1,100,Eczema
+P383,62,Other,"Headache, Fatigue",14,Yes,Yes,No,Normal,Normal,Normal,36.1,104,Osteoporosis
+P384,53,Female,Shortness of Breath,25,No,No,No,High,Low,High,35.6,79,Alzheimer’s
+P385,69,Other,"Dizziness, Weakness",16,No,No,Yes,Low,Low,High,35.7,115,Hemophilia
+P386,23,Male,"Fever, Cough",27,Yes,No,No,Normal,Low,Normal,37.4,97,Lymphoma
+P387,44,Female,"Headache, Fatigue",9,Yes,No,Yes,Normal,Low,Low,38.6,106,COVID-19
+P388,21,Other,Chest Pain,12,No,No,No,High,High,High,39.8,56,Eczema
+P389,51,Other,Skin Rash,19,No,No,Yes,High,High,High,38.5,58,Meningitis
+P390,18,Male,"Fever, Cough",5,Yes,No,No,Low,Normal,High,40.2,88,Meningitis
+P391,33,Other,Joint Pain,27,No,No,No,Low,Normal,Normal,36.9,81,Colon Cancer
+P392,51,Female,Shortness of Breath,13,No,No,No,High,Normal,Normal,37.3,103,Breast Cancer
+P393,45,Other,Skin Rash,14,No,Yes,No,Low,Normal,High,35.6,100,Gastritis
+P394,33,Male,Chest Pain,20,Yes,No,No,Low,High,High,36.4,109,Hepatitis B
+P395,35,Male,Chest Pain,13,No,Yes,No,Normal,Normal,Low,36.5,113,Malaria
+P396,14,Female,"Headache, Fatigue",22,Yes,No,Yes,Normal,Normal,High,38.7,83,Leukemia
+P397,52,Other,Skin Rash,26,Yes,Yes,No,High,High,Normal,38.7,79,Hypertension
+P398,81,Other,"Nausea, Vomiting",26,No,No,Yes,High,High,Normal,37.9,81,Heart Disease
+P399,97,Female,"Fever, Cough",10,Yes,No,Yes,Low,Normal,High,39.9,55,Prostate Cancer
+P400,70,Female,Skin Rash,10,Yes,Yes,No,Normal,Normal,High,38.3,103,Ulcers
+P401,67,Female,Joint Pain,29,No,Yes,Yes,Low,Normal,Low,35.6,76,Prostate Cancer
+P402,19,Male,"Headache, Fatigue",27,No,Yes,Yes,Low,High,Low,36.5,87,Hypertension
+P403,90,Female,Shortness of Breath,13,No,Yes,No,Low,Low,High,37.8,100,COVID-19
+P404,57,Male,Shortness of Breath,18,Yes,Yes,Yes,Low,Low,Normal,39.8,94,Gout
+P405,40,Male,Chest Pain,9,No,Yes,No,Low,Low,High,37.2,82,Hepatitis B
+P406,85,Male,Skin Rash,10,Yes,Yes,No,High,Normal,Normal,38.8,82,Lymphoma
+P407,43,Other,"Dizziness, Weakness",12,No,No,Yes,High,Normal,Low,36.7,97,Epilepsy
+P408,31,Female,Shortness of Breath,2,Yes,Yes,No,Low,Low,Normal,38.3,54,Bronchitis
+P409,34,Female,"Headache, Fatigue",1,Yes,Yes,No,High,Normal,Low,37.7,76,Glaucoma
+P410,23,Male,"Fever, Cough",22,Yes,Yes,No,High,Normal,High,39,107,Epilepsy
+P411,80,Male,Skin Rash,9,Yes,Yes,No,High,Low,High,40.1,75,Meningitis
+P412,81,Other,"Nausea, Vomiting",4,Yes,No,Yes,Normal,Low,Normal,36.1,82,Epilepsy
+P413,39,Other,"Headache, Fatigue",15,No,No,No,Low,High,Low,40.3,115,Meningitis
+P414,52,Male,Skin Rash,7,No,No,No,High,Low,Low,39.5,75,Gastritis
+P415,93,Male,Chest Pain,13,No,No,Yes,High,Normal,Normal,35.5,87,Migraine
+P416,67,Female,Shortness of Breath,3,No,No,No,High,High,High,36.2,51,Heart Disease
+P417,30,Male,Chest Pain,18,No,No,No,High,High,High,40.5,96,Ulcers
+P418,2,Female,Chest Pain,26,Yes,No,No,High,High,Low,37.4,114,Thyroid Disorders
+P419,24,Other,"Nausea, Vomiting",20,Yes,Yes,No,Normal,Low,Low,40.1,56,Schizophrenia
+P420,82,Male,Skin Rash,20,No,Yes,Yes,Normal,High,High,37.1,107,Lung Cancer
+P421,29,Male,"Headache, Fatigue",30,No,Yes,No,Low,Normal,High,37.1,55,Multiple Sclerosis
+P422,95,Female,Shortness of Breath,5,Yes,No,Yes,Low,High,High,38.3,80,Crohn’s Disease
+P423,15,Male,Chest Pain,14,Yes,No,No,High,High,Low,40.1,101,Pneumonia
+P424,1,Female,Shortness of Breath,14,Yes,No,No,High,Low,High,36.3,63,Multiple Sclerosis
+P425,5,Female,Joint Pain,12,No,No,No,Normal,Low,High,36.5,91,Ulcers
+P426,24,Male,"Nausea, Vomiting",5,No,No,No,Low,High,Normal,36,112,Liver Cirrhosis
+P427,96,Male,Skin Rash,7,Yes,Yes,No,Low,High,High,37,100,Ulcers
+P428,57,Other,Joint Pain,4,No,No,No,High,Normal,Low,36.7,114,Malaria
+P429,40,Other,Shortness of Breath,15,No,Yes,No,High,Low,Low,36.7,106,Pancreatitis
+P430,46,Male,"Fever, Cough",12,Yes,Yes,Yes,High,Normal,Normal,38.8,51,Ulcers
+P431,31,Male,"Fever, Cough",7,Yes,Yes,Yes,High,High,Low,39.6,69,Gastritis
+P432,6,Other,Joint Pain,25,No,Yes,Yes,Low,Normal,High,39.5,52,Thyroid Disorders
+P433,77,Male,Joint Pain,24,No,Yes,Yes,Low,High,Low,36.2,109,Pneumonia
+P434,63,Other,Chest Pain,10,No,Yes,Yes,Normal,Low,Low,37.6,82,Asthma
+P435,62,Male,Skin Rash,1,Yes,Yes,Yes,High,Low,Low,37.4,64,Sickle Cell Disease
+P436,16,Female,Chest Pain,27,No,No,Yes,Low,Normal,Normal,39,109,Thyroid Disorders
+P437,4,Male,Joint Pain,16,No,No,Yes,Low,Low,Low,35.9,71,Meningitis
+P438,15,Other,"Dizziness, Weakness",15,No,No,No,Normal,Normal,Low,37.1,117,Lymphoma
+P439,34,Other,"Dizziness, Weakness",4,No,No,No,Low,High,Normal,40.4,120,Gastritis
+P440,87,Female,"Headache, Fatigue",27,No,No,Yes,Low,Low,Low,37.5,62,COVID-19
+P441,13,Male,Shortness of Breath,14,No,Yes,Yes,High,Low,Normal,39.6,76,Gastritis
+P442,76,Male,"Dizziness, Weakness",20,Yes,Yes,Yes,High,Normal,Normal,35.5,105,Parkinson’s
+P443,60,Other,Joint Pain,30,Yes,Yes,Yes,Low,Low,Low,36.7,52,Multiple Sclerosis
+P444,69,Other,"Nausea, Vomiting",1,Yes,Yes,Yes,Normal,High,Normal,36.6,99,Pancreatitis
+P445,66,Male,Chest Pain,24,No,No,Yes,Low,High,High,36.4,88,Arthritis
+P446,64,Female,Joint Pain,13,No,Yes,No,Normal,Normal,Low,39.6,53,Ulcers
+P447,36,Other,Chest Pain,25,No,No,Yes,Normal,Low,Normal,38.3,107,Prostate Cancer
+P448,36,Female,"Fever, Cough",23,No,Yes,No,Low,Normal,High,35.8,66,Epilepsy
+P449,12,Male,Shortness of Breath,17,Yes,No,No,High,Low,Low,36.9,59,Liver Cirrhosis
+P450,67,Male,Skin Rash,8,Yes,No,No,Low,Normal,Low,36,112,Epilepsy
+P451,40,Male,Shortness of Breath,14,Yes,No,Yes,Low,Low,High,38.2,96,Leukemia
+P452,46,Female,"Headache, Fatigue",10,Yes,Yes,Yes,Normal,Normal,High,35.7,70,Sickle Cell Disease
+P453,22,Female,"Headache, Fatigue",26,No,No,No,Normal,Normal,High,36.2,105,Pancreatitis
+P454,31,Female,"Dizziness, Weakness",23,No,Yes,Yes,Normal,Low,High,39.9,109,Dengue Fever
+P455,79,Other,Shortness of Breath,22,Yes,No,No,Normal,Low,High,39.8,50,Leukemia
+P456,27,Male,"Dizziness, Weakness",13,Yes,No,Yes,Normal,Low,Low,37.8,120,Stroke
+P457,91,Male,"Fever, Cough",13,No,No,No,Low,Normal,Low,38.9,91,Eczema
+P458,28,Other,"Nausea, Vomiting",14,No,No,No,Normal,Low,High,39.6,69,Bronchitis
+P459,32,Male,"Headache, Fatigue",6,No,No,Yes,High,Low,Normal,38.8,103,Lung Cancer
+P460,76,Female,"Nausea, Vomiting",1,No,Yes,Yes,High,High,Low,35.9,74,Gastritis
+P461,77,Male,Shortness of Breath,24,Yes,Yes,Yes,High,Normal,High,40.4,87,Asthma
+P462,68,Female,Shortness of Breath,29,No,Yes,No,Low,Normal,High,39,115,Leukemia
+P463,68,Other,"Dizziness, Weakness",26,No,Yes,Yes,High,Normal,High,37.5,62,Colon Cancer
+P464,69,Other,"Fever, Cough",23,No,No,No,Low,Low,Normal,37.3,54,Obesity
+P465,36,Female,"Dizziness, Weakness",28,Yes,Yes,No,Normal,Low,Low,39.8,77,Typhoid Fever
+P466,98,Male,Skin Rash,22,Yes,No,Yes,High,High,Normal,39,117,Fibromyalgia
+P467,53,Female,"Dizziness, Weakness",26,No,No,No,Normal,Normal,High,35.8,54,Epilepsy
+P468,65,Other,"Nausea, Vomiting",20,Yes,No,No,High,High,High,36.5,119,Epilepsy
+P469,9,Other,"Dizziness, Weakness",30,Yes,No,Yes,High,Normal,High,37.4,50,Anemia
+P470,60,Other,Joint Pain,15,Yes,Yes,Yes,Low,Normal,Low,40.3,111,Autism
+P471,100,Female,Skin Rash,4,Yes,No,Yes,High,Normal,High,36.1,119,Sickle Cell Disease
+P472,57,Female,Skin Rash,5,Yes,Yes,Yes,Low,High,Normal,37.7,85,Crohn’s Disease
+P473,80,Other,Chest Pain,22,No,No,No,High,Normal,Low,36.2,50,Bronchitis
+P474,10,Other,Skin Rash,8,Yes,Yes,No,Normal,Low,Low,39.7,115,Prostate Cancer
+P475,27,Male,"Headache, Fatigue",2,No,Yes,No,Low,Normal,High,37.9,81,Psoriasis
+P476,64,Male,"Dizziness, Weakness",29,No,Yes,No,High,Normal,High,35.9,105,Typhoid Fever
+P477,22,Female,"Nausea, Vomiting",16,No,Yes,Yes,Normal,Low,Low,36.8,51,Sickle Cell Disease
+P478,99,Other,Shortness of Breath,23,Yes,Yes,Yes,Low,Low,Normal,36.3,64,Anemia
+P479,9,Male,"Headache, Fatigue",11,Yes,No,Yes,High,Low,Low,35.6,87,Diabetes
+P480,98,Female,"Headache, Fatigue",30,No,Yes,Yes,High,High,Low,39.7,100,Celiac Disease
+P481,54,Female,"Fever, Cough",26,No,Yes,No,Normal,Normal,Low,36.2,100,Heart Disease
+P482,52,Other,Joint Pain,13,No,No,No,High,Low,High,37.1,55,Gastritis
+P483,31,Female,"Headache, Fatigue",27,No,Yes,Yes,Low,Low,Normal,37.1,100,Hemophilia
+P484,14,Male,"Nausea, Vomiting",22,No,No,No,Normal,Low,High,35.8,69,Multiple Sclerosis
+P485,97,Male,Shortness of Breath,7,Yes,Yes,Yes,High,Normal,High,36.5,69,Malaria
+P486,89,Female,"Headache, Fatigue",4,Yes,No,No,Normal,High,Low,38.2,59,Typhoid Fever
+P487,57,Other,Shortness of Breath,6,Yes,No,Yes,Low,Low,Low,39.7,79,Dengue Fever
+P488,30,Male,Shortness of Breath,7,Yes,Yes,Yes,Low,Normal,High,36.5,87,Bronchitis
+P489,7,Other,Skin Rash,5,No,Yes,No,High,Low,High,37.3,93,Cataracts
+P490,65,Other,"Dizziness, Weakness",21,Yes,No,No,Normal,Normal,Low,35.6,61,Liver Cirrhosis
+P491,9,Male,Shortness of Breath,22,Yes,Yes,No,Low,Low,Normal,38.2,65,Psoriasis
+P492,49,Other,"Fever, Cough",23,Yes,Yes,Yes,High,Low,Low,39.9,76,Asthma
+P493,48,Male,Shortness of Breath,29,Yes,Yes,No,High,Normal,Low,37.7,53,Stroke
+P494,11,Female,"Dizziness, Weakness",28,Yes,Yes,No,Normal,High,Low,39.2,86,Stroke
+P495,24,Female,Skin Rash,28,Yes,No,No,High,Low,High,40.4,50,Schizophrenia
+P496,87,Other,Shortness of Breath,14,Yes,No,Yes,High,Low,High,39.8,68,Typhoid Fever
+P497,72,Other,"Dizziness, Weakness",25,No,No,Yes,High,High,Low,40.1,100,Epilepsy
+P498,26,Other,Joint Pain,5,Yes,No,No,High,Normal,Normal,39.1,109,Prostate Cancer
+P499,53,Male,"Dizziness, Weakness",23,No,No,Yes,Normal,Low,High,37.7,55,Kidney Disease
+P500,29,Other,Skin Rash,27,No,No,No,High,Normal,High,39.1,82,Colon Cancer

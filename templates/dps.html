@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Disease Prediction Form</title>
+<style>
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.form-group input {
+    position: absolute;
+    left: 200px;
+    width: 300px;
+    padding: 11px;
+    font-size: 14px;
+}
+
+.form-group select {
+    position: absolute;
+    left: 200px;
+    width: 330px;
+    padding: 11px;
+    font-size: 14px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("{{ url_for('static', filename='images/images.png') }}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</style>
+</head>
+<body>
+
+<div class="form-container">
+<h2>Disease Prediction</h2>
+
+<!-- Added form tag -->
+<form method="POST" action="/">
+    <div class="form-group">
+        <label>Age:</label>
+        <input type="text" name="Age" placeholder="Enter your Age">
+    </div>
+
+    <div class="form-group">
+        <label>Gender:</label>
+        <select name="Gender">
+            <option value="">_Select Gender_</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Symptoms:</label>
+        <input type="text" name="Symptoms" placeholder="Enter symptoms">
+    </div>
+
+    <div class="form-group">
+        <label>Duration:</label>
+        <input type="text" name="Duration" placeholder="Enter the duration">
+    </div>
+
+    <div class="form-group">
+        <label>Family History:</label>
+        <select name="Family History">
+            <option value="">_Select Yes or No_</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Smoking History:</label>
+        <select name="Smoking History">
+            <option value="">_Select Yes or No_</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Alcohol Consumption:</label>
+        <select name="Alcohol Consumption">
+            <option value="">_Select Yes or No_</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Blood Pressure Level:</label>
+        <select name="Blood Pressure Level">
+            <option value="">_Select_</option>
+            <option value="Low">Low</option>
+            <option value="Normal">Normal</option>
+            <option value="High">High</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Blood Sugar Level:</label>
+        <select name="Blood Sugar Level">
+            <option value="">_Select_</option>
+            <option value="Low">Low</option>
+            <option value="Normal">Normal</option>
+            <option value="High">High</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Cholesterol Level:</label>
+        <select name="Cholesterol Level">
+            <option value="">_Select_</option>
+            <option value="Low">Low</option>
+            <option value="Normal">Normal</option>
+            <option value="High">High</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Body Temperature:</label>
+        <input type="text" name="Body Temperature" placeholder="Enter the body temperature">
+    </div>
+
+    <div class="form-group">
+        <label>Heart Rate Level:</label>
+        <input type="text" name="Heart Rate" placeholder="Enter the heart rate">
+    </div>
+
+    <div class="button-container">
+        <button type="submit">Predict</button>
+    </div>
+</form>
+
+<!--  Fixed Jinja template syntax -->
+{% if ans %}
+    <p style="text-align:center; font-size:18px; color:white;">Predicted Disease: {{ ans }}</p>
+{% endif %}
+
+</div>
+
+</body>
+</html>
