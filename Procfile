@@ -1,0 +1,1 @@
+web: gunicorn dps_flask:app
